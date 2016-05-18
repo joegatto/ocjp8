@@ -1,7 +1,14 @@
 Chapter 3
 - Verificar ciclo de vida das variaveis locais. Variaveis fora do escopo gera ERRO DE COMPILAÇÃO.
-- Cuidado com variaveis locais de loop for
+- Cuidado com variaveis locais de loop for.
 - Cuidado com escopo de parametros dos metodos, só podem ser acessados durante a execução do metodo.
 - Cuidado com variaveis no mesmo escopo com nomes iguais.
 - Verificar nome de parametro com variavel local.
-- 
+- Verificar se a estrutura da classe está correta (Package -> Import -> Classes).
+- Declaração de variaveis sempre com TIPO + NOME.
+- Declaração de metodos sempre com TIPO DE RETORN + NOME + PARAMETROS (0 ou +).
+- Para compilar a aplicação usamos o javac e o diretorio usando /.
+- Para rodar a aplicação usamos o java e os diretorios usando o ., passando os parametros separados por <space>.
+- Para escolher a versão de java que será compila usamos o -source <version>.
+- Usamos o -D para passar propriedades para a JVM.
+- Para gerar o jar, usamos o comando jar -cf e para criar o jar com manifesto jar -cfm
