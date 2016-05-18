@@ -12,3 +12,6 @@ Chapter 3
 - Para escolher a versão de java que será compila usamos o -source <version>.
 - Usamos o -D para passar propriedades para a JVM.
 - Para gerar o jar, usamos o comando jar -cf e para criar o jar com manifesto jar -cfm
+- Checar se a classe não tenta usar classes do pacote padrão.
+- Verificar moderadores de acesso dos metodos e contrutores.
+- Verificar declaração do import estatico
