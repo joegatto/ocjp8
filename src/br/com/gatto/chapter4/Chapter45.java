@@ -9,6 +9,13 @@ class Chapter45 {
 		String name = p.getName();
 		
 		// String a = p.setName("X"); ERRO DE COMPILAÇÃO - Não podemos atribuir um void para String.
+		
+		Calculator c = new Calculator();
+		
+		System.out.println(c.sum());
+		System.out.println(c.sum(1));
+		System.out.println(c.sum(1,2));
+		System.out.println(c.sum(1,2,3,4,5,6,7,8,9));
 	}
 }
 

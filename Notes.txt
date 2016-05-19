@@ -17,4 +17,5 @@ Chapter 3
 - Verificar declara��o do import estatico.
 - Verificar se as variaveis locais foram inicializadas antes de usar.
 - Base octal, começa com 0 e aceita de 0 a 7. Base binaria começa com 0b e aceita somente 0 e 1. Base hexadecimal, começa com 0x e aceita de 0 a 9 e de A a F.
-- 
+- Varargs sempre será o último parametro da assinatura do metodo e sempre será um por metodo.
+- Varargs aceita um array do tipo mas não podemos chamar um metodo de array como se fosse varargs.
