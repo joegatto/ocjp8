@@ -1,17 +1,19 @@
 Chapter 3
-- Verificar ciclo de vida das variaveis locais. Variaveis fora do escopo gera ERRO DE COMPILAÇÃO.
+- Verificar ciclo de vida das variaveis locais. Variaveis fora do escopo gera ERRO DE COMPILAï¿½ï¿½O.
 - Cuidado com variaveis locais de loop for.
-- Cuidado com escopo de parametros dos metodos, só podem ser acessados durante a execução do metodo.
+- Cuidado com escopo de parametros dos metodos, sï¿½ podem ser acessados durante a execuï¿½ï¿½o do metodo.
 - Cuidado com variaveis no mesmo escopo com nomes iguais.
 - Verificar nome de parametro com variavel local.
-- Verificar se a estrutura da classe está correta (Package -> Import -> Classes).
-- Declaração de variaveis sempre com TIPO + NOME.
-- Declaração de metodos sempre com TIPO DE RETORN + NOME + PARAMETROS (0 ou +).
-- Para compilar a aplicação usamos o javac e o diretorio usando /.
-- Para rodar a aplicação usamos o java e os diretorios usando o ., passando os parametros separados por <space>.
-- Para escolher a versão de java que será compila usamos o -source <version>.
+- Verificar se a estrutura da classe estï¿½ correta (Package -> Import -> Classes).
+- Declaraï¿½ï¿½o de variaveis sempre com TIPO + NOME.
+- Declaraï¿½ï¿½o de metodos sempre com TIPO DE RETORN + NOME + PARAMETROS (0 ou +).
+- Para compilar a aplicaï¿½ï¿½o usamos o javac e o diretorio usando /.
+- Para rodar a aplicaï¿½ï¿½o usamos o java e os diretorios usando o ., passando os parametros separados por <space>.
+- Para escolher a versï¿½o de java que serï¿½ compila usamos o -source <version>.
 - Usamos o -D para passar propriedades para a JVM.
 - Para gerar o jar, usamos o comando jar -cf e para criar o jar com manifesto jar -cfm
-- Checar se a classe não tenta usar classes do pacote padrão.
+- Checar se a classe nï¿½o tenta usar classes do pacote padrï¿½o.
 - Verificar moderadores de acesso dos metodos e contrutores.
-- Verificar declaração do import estatico
+- Verificar declaraï¿½ï¿½o do import estatico.
+- Verificar se as variaveis locais foram inicializadas antes de usar.
+- Base octal, comeÃ§a com 0 e aceita de 0 a 7. Base binaria comeÃ§a com 0b e aceita somente 0 e 1. Base hexadecimal, comeÃ§a com 0x e aceita de 0 a 9 e de A a F.
