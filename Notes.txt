@@ -21,4 +21,5 @@ Chapter 3
 - Varargs aceita um array do tipo mas não podemos chamar um metodo de array como se fosse varargs.
 - Metodos do string builder que recebem start-end (substring, delete) nunca elimina o index final.
 - String são imutaveis, ou seja, nenhum metodo altera uma string, somente devolve uma string nova.
-- 
+- Verificar se metodo estatico não tenta acessar uma propriedade não estatica.
+- Erro de execução ao tentar criar um objeto passando um parametro nulo.

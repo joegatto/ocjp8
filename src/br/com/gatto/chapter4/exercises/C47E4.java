@@ -1,13 +1,16 @@
 package br.com.gatto.chapter4.exercises;
 
+/**
+ * 4. A resposta certa Ã© (a). â€˜Caelumâ€˜ e â€˜Caelum - Ensino e InovaÃ§Ã£oâ€˜.
+ */
 public class C47E4 {
 	public static void main(String[] args) {
 		String s = "Caelum";
-		s.concat(" - Ensino e Inovação");
+		s.concat(" - Ensino e Inovaï¿½ï¿½o");
 		System.out.println(s);
 
 		StringBuffer s1 = new StringBuffer("Caelum");
-		s1.append(" - Ensino e Inovação");
+		s1.append(" - Ensino e Inovaï¿½ï¿½o");
 		System.out.println(s1);
 	}
 }
