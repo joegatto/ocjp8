@@ -17,3 +17,4 @@ Chapter 3
 - Verificar declara��o do import estatico.
 - Verificar se as variaveis locais foram inicializadas antes de usar.
 - Base octal, começa com 0 e aceita de 0 a 7. Base binaria começa com 0b e aceita somente 0 e 1. Base hexadecimal, começa com 0x e aceita de 0 a 9 e de A a F.
+- 
