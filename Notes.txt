@@ -20,4 +20,5 @@ Chapter 3
 - Varargs sempre será o último parametro da assinatura do metodo e sempre será um por metodo.
 - Varargs aceita um array do tipo mas não podemos chamar um metodo de array como se fosse varargs.
 - Metodos do string builder que recebem start-end (substring, delete) nunca elimina o index final.
--
+- String são imutaveis, ou seja, nenhum metodo altera uma string, somente devolve uma string nova.
+- 
