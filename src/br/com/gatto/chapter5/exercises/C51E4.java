@@ -1,5 +1,8 @@
 package br.com.gatto.chapter5.exercises;
 
+/**
+ * 4. A resposta certa é (d): i e c.
+ */
 public class C51E4 {
 	public static void main(String[] args) {
 		int i = (byte) 5;
