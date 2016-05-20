@@ -106,6 +106,24 @@ public class Chapter51 {
 		System.out.println(num);
 		
 		System.out.println(num+=3);
+		
+		int a2 = 10;
+		a2 += ++a2 + a2 + ++a2;
+		System.out.println(a2);
+		
+		a2 = 10;
+		a2+= a2++ + a2 + a2++;
+		System.out.println(a2);
+		
+		int j2 = 0;
+		int i3 = (j2++ * j2 + j2++);
+		System.out.println(i3);
+		System.out.println(j2);
+		
+		j2 = 0;
+		i3 = (++j2 * j2 + ++j2);
+		System.out.println(i3);
+		System.out.println(j2);
 
 	}
 
