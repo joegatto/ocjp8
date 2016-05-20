@@ -23,3 +23,5 @@ Chapter 3
 - String são imutaveis, ou seja, nenhum metodo altera uma string, somente devolve uma string nova.
 - Verificar se metodo estatico não tenta acessar uma propriedade não estatica.
 - Erro de execução ao tentar criar um objeto passando um parametro nulo.
+- O tipo do resultado de uma operação é o tipo mais abrangente ou no minimo int.
+-
