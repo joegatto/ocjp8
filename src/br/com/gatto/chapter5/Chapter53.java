@@ -38,6 +38,10 @@ public class Chapter53 {
 
 		System.out.println(c1 == c2);
 		System.out.println(c1 == c1);
+		System.out.println(c1.equals(c2));
+
+		Client c3 = new Client("guilherme");
+		System.out.println(c1.equals(c3));
 	}
 }
 
@@ -46,5 +50,14 @@ class Client {
 
 	Client(String name) {
 		this.name = name;
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if (!(obj instanceof Client)) {
+			return false;
+		}
+		Client second = (Client) obj;
+		return this.name.equals(second.name);
 	}
 }
