@@ -29,3 +29,6 @@
 - else if é separado (não existe elseif)
 - Checar moderador de acesso de todos os atributos de classe.
 - Checar os if que não possuem chaves de delimitação. {}
+- Checar se os cases do switch estão usando String, Int ou abaixo, Constantes.
+- Checar se a estrutura do switch está de acordo.
+- 
