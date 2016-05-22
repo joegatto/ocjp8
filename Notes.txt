@@ -33,3 +33,5 @@
 - Checar se a estrutura do switch está de acordo.
 - Verificar se os arrays são criados com um valor pré definido.
 - Não há casting de tipo primitivo em arrays.
+- Verificar se o array bidimensional tem a inicialização de tamanho do primeiro array.
+- Verificar se o codigo não atribui valores no array na parte de declaração da variavel.
