@@ -31,4 +31,5 @@
 - Checar os if que não possuem chaves de delimitação. {}
 - Checar se os cases do switch estão usando String, Int ou abaixo, Constantes.
 - Checar se a estrutura do switch está de acordo.
-- 
+- Verificar se os arrays são criados com um valor pré definido.
+- Não há casting de tipo primitivo em arrays.
