@@ -36,3 +36,5 @@
 - Verificar se o array bidimensional tem a inicialização de tamanho do primeiro array.
 - Verificar se o codigo não atribui valores no array na parte de declaração da variavel.
 - Checar se o do...while tem o ponto e virgula no final (;)
+- Checar se this não é usado em um contexto static.
+
