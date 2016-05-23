@@ -7,5 +7,10 @@ public class Chapter71 {
 			System.out.println(i);
 			i++;
 		}
+		
+		// while (true) {
+		// System.out.println("So something...");
+		// }
+		// return;
 	}
 }
