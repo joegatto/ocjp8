@@ -40,3 +40,5 @@
 - Verificar se os metodos não possuem parametros invertidos (String a, Object b <-> Object b, String a)
 - O metodo sobrecarregado sempre executa o mais especifico.
 - Verificar NPE no metodos invocados em construtores.
+- this() deve ser o primeiro item a ser chamado nos contrutores.
+- Não podemos chamar 2 method this() no mesmo construtor.

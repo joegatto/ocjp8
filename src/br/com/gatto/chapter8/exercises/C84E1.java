@@ -1,5 +1,8 @@
 package br.com.gatto.chapter8.exercises;
 
+/**
+ * 1. A resposta certa é (d). O código compila e joga um NullPointerException.
+ */
 class A {
 	final String n;
 
@@ -13,6 +16,10 @@ class A {
 	}
 }
 
+/**
+ * @author JSGT
+ *
+ */
 class C84E1 extends A {
 	void a() {
 		System.out.println(n.length());
