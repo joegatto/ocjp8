@@ -39,3 +39,4 @@
 - Checar se this não é usado em um contexto static.
 - Verificar se os metodos não possuem parametros invertidos (String a, Object b <-> Object b, String a)
 - O metodo sobrecarregado sempre executa o mais especifico.
+- Verificar NPE no metodos invocados em construtores.
