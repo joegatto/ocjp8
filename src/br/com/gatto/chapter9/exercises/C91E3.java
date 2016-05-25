@@ -1,5 +1,8 @@
 package br.com.gatto.chapter9.exercises;
 
+/**
+ * 3. A resposta certa é (a). O código não compila pois há um ciclo na herança.
+ */
 class C91E3 extends B91E3 {
 	int m(String c) {
 		return 3;

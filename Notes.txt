@@ -48,3 +48,7 @@
 • de dentro da classe, ou de dentro de qualquer outra classe, interface ou enum do mesmo pacote;
 • de dentro de alguma classe que deriva direta ou indiretamente da classe, independente do pacote. Omembro protected só pode ser chamado através da referência this, ou por uma referência que seja dessa classe filha.
 - Todos osmembros da classe comomodificador public podem ser acessados de qualquer lugar da aplicação.
+- Validar se a classe filha tem acesso ao construtor, variaveis e metodos do pai.
+- Validar se não ocorre ciclo de herança.
+- Validar heranças multiplas.
+- 
