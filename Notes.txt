@@ -51,4 +51,5 @@
 - Validar se a classe filha tem acesso ao construtor, variaveis e metodos do pai.
 - Validar se não ocorre ciclo de herança.
 - Validar heranças multiplas.
+- Verificar se a exception foi realmente lançada durante o código.
 - 
