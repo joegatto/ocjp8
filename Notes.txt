@@ -52,4 +52,15 @@
 - Validar se não ocorre ciclo de herança.
 - Validar heranças multiplas.
 - Verificar se a exception foi realmente lançada durante o código.
-- 
+
+- Sobreescrita de método:
+	- Somente metodos herdados podem ser sobreescritos.
+    - Somente metodos public, protected and default podem ser sobreescritos.
+    - Métodos private não podem ser sobreescritos.
+    - Métodos final e static não podem ser sobrescritos. Causa erro de compilação se tentarmos sobreescrever esses métodos.
+    - Mesma lista de argumentos
+    - Deve ter o mesmo tipo de retorno (ou subclasse para tipos não primitivos). Erro de compilação se alterarmos o tipo do retorno.
+    - Não pode ter acesso mais restritivo que o da classe mãe
+    - Não pode retornar uma exception maior que a declarada.
+    - Usar a palavra reservada super para chamar o metodo da classe mãe.
+    - Construtores não podem ser sobrescritos
