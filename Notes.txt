@@ -64,3 +64,6 @@
     - Não pode retornar uma exception maior que a declarada.
     - Usar a palavra reservada super para chamar o metodo da classe mãe.
     - Construtores não podem ser sobrescritos
+    
+ - Atributos final somente devem ser inicializados no momento da declaração ou no construtor ou bloco de inicializaçao.
+ - Chamadas de metodos sempre dão preferencia para variaveis primitivas a wrappers.
