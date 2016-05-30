@@ -52,7 +52,6 @@
 - Validar se não ocorre ciclo de herança.
 - Validar heranças multiplas.
 - Verificar se a exception foi realmente lançada durante o código.
-- Verificar se a exception foi realmente lançada durante o código.
 
 - Sobreescrita de método:
 	- Somente metodos herdados podem ser sobreescritos.
