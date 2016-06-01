@@ -5,10 +5,26 @@ interface Account {
 	public default String getId() {
 		return "0000";
 	}
+
+	public default String getName() {
+		return "0000";
+	}
+
+	static void test() {
+		System.out.println(1);
+	}
 }
 
 interface PremiumAccount extends Account {
 	public String getId();
+
+	public default String getName() {
+		return "0000";
+	}
+
+	static void test() {
+		System.out.println(1);
+	}
 }
 
 public class BankAccount implements PremiumAccount {
@@ -20,7 +36,7 @@ public class BankAccount implements PremiumAccount {
 
 	@Override
 	public String getId() {
-		// TODO Auto-generated method stub
 		return null;
 	}
+
 }
